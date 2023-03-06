@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=11">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--linkcss-->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+
+    <title>Home</title>
+</head>
+
+<body>
+
+    <!--Header.-->
+    <header>
+        <h1 class="name">Rigel Bulaclac</h1>
+        <!--Navigation bar-->
+        <nav class="navigation">
+            <br>
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="table.html">Users</Table></a>
+            <a href="#">Sample-2</a>
+            <a href="#">Sample-3</a>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <div class="form-box login">
+            <h2>Login</h2>
+
+            <form action="#">
+                <div class="fields">
+                    
+                    <!--input Username-->
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="person-outline"></ion-icon>
+                        </span>
+                        <input type="text" maxlength="25" required placeholder="User">
+                    </div>
+
+                    <!--input Password-->
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="lock-closed-outline"></ion-icon>
+                        </span>
+                        <input type="password" maxlength="25" required placeholder="Password">
+                    </div>
+                    
+                    <div class="remember-me">
+                        <label>
+                            <input type="checkbox"> Remember me
+                        </label>
+                    </div>
+
+                    <!--login button-->
+                    <button type="submit" class="btn">Login</button>
+                    
+                    <!--back to register-->
+                    <div class="login-register">
+                        <a href="#" class="register-link">Register here</a>
+                    </div>
+                
+                </div>
+
+            </form>
+        </div>
+
+        <div class="form-box register">
+
+            <h2>Registration</h2>
+
+            <form action="#">
+                <div class="fields-register">
+                    <!--input First Name-->
+
+                    <div style=display:inline-block; class="input-box" >
+                        <input type="text" required placeholder="First Name">
+                    </div>
+
+                    <!--input Last Name-->
+                    <div style="display:inline-block;" class="input-box">
+                        <input type="text" required placeholder="Last Name">
+                    </div>
+
+                    <!--input Birth Date-->
+                    <div style=display:inline-block; class="input-box" >
+                        <input type="date" required>
+                    </div>
+
+                    <!--GENDER SELECT-->
+                    <div style=display:inline-block; class="input-box" >
+                        <select name="gender" required>
+                            <option value="" hidden>SELECT GENDER</option>
+                            <option value="">MALE</option>
+                            <option value="">FEMALE</option>
+                            <option value="">FAGGOT</option>
+                            <option value="">HOMOPHOBIC</option> 
+                        </select>
+                    </div>
+
+                    <!--input Mobile no.-->
+                    <div style="display:inline-block;"class="input-box">
+                        <input type="text" required placeholder="Mobile No. (+6312345)">
+                    </div>
+                    
+                    <!--input Email-->
+                    
+                    <div style="display:inline-block;" class="input-box">
+                        <span class="icon">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </span>
+                        <input type="email" required placeholder="Email">
+                    </div>
+                    
+                    <!--input Username-->
+                    <div style="display:inline-block;" class="input-box">
+                        <span class="icon">
+                            <ion-icon name="person-outline"></ion-icon>
+                        </span>
+                        <input type="text" required placeholder="User">
+                    </div>
+                    
+                    <!-- UPLOAD PHOTO -->
+                    <div style="display:inline-block;" class="photo-file">
+                        <span class="icon">
+                            <ion-icon name="image-outline"></ion-icon></ion-icon>
+                        </span>
+                        <input type="file" id="file" accept="image/*">
+                        <label for="file">
+                                Choose a valid ID
+                        </label>
+                    </div>
+                    
+                    <!--input Password-->
+                    <div style="display:inline-block;" class="input-box">
+                        <span class="icon">
+                            <ion-icon name="lock-closed-outline"></ion-icon>
+                        </span>
+                        <input type="password" required placeholder="Password">
+                    </div>
+
+                    <!--input password confirmation-->
+    
+                    <div style="display:inline-block;" class="input-box">
+                        <span class="icon">
+                            <ion-icon name="lock-closed-outline"></ion-icon>
+                        </span>
+                        <input type="password" required placeholder="Confirm Password">
+                    </div>
+                    
+                    <br>
+
+                    <button type="submit" class="btn">Register</button>
+                    
+                    <!--back to login-->
+                    <div class="login-register">
+                        <a href="#" class="login-link">Login here</a>
+                    </div>
+                    
+                </div>                
+          
+            </form>
+        
+        </div>
+
+        
+
+    </div>
+    
+    <script src="script.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+    <!--BOOTSTRAP5 JS BUNDLE-->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+    
+    <!--ION-ICONS-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
